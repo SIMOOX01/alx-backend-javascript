@@ -1,5 +1,4 @@
-
-rt default function iterateThroughObject(reportWithIterator) {
+export default function iterateThroughObject(reportWithIterator) {
   let n = reportWithIterator.next();
   let res = '';
   while (!n.done) {
